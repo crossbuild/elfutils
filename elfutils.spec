@@ -1,7 +1,7 @@
 # -*- rpm-spec-*-
 Summary: A collection of utilities and DSOs to handle compiled objects
 Name: elfutils
-Version: @PACKAGE_VERSION@
+Version: 0.163
 Release: 1
 License: GPLv3+ and (GPLv2+ or LGPLv3+)
 Group: Development/Tools
