@@ -7891,7 +7891,7 @@ print_debug_exception_table (Dwfl_Module *dwflmod __attribute__ ((unused)),
 
   if (max_ar_filter > 0 && ttype_base != NULL)
     {
-      unsigned char dsize;
+      unsigned char dsize = 0;
       puts ("\n TType table:");
 
       // XXX Not *4, size of encoding;
